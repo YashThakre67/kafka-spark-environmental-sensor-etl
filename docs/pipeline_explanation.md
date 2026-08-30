@@ -1,4 +1,6 @@
+## Architecture Diagram
 
+![Kafka-Spark Environmental Sensor ETL Architecture](images/pipeline_architecture.png)
 
 # Pipeline Explanation
 
