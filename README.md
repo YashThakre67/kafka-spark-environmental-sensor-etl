@@ -11,24 +11,6 @@ The goal of this project is to demonstrate real-time data ingestion, stream proc
 
 ---
 
-## Project Overview
-
-The pipeline is designed around two independent Kafka sources:
-
-1. **Weather sensor stream**
-   - Temperature
-   - Humidity
-   - Timestamp
-
-2. **Particulate matter sensor stream**
-   - PM2.5 values
-   - PM10 values
-   - Timestamp
-
-Both streams are processed by Spark and aligned for correlation analysis between weather conditions and air-quality measurements.
-
----
-
 ## Architecture
 ![Kafka-Spark Environmental Sensor ETL Architecture](docs/images/pipeline_architecture.png)
 
