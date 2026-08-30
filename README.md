@@ -22,6 +22,14 @@ The pipeline contains two Kafka sources: one for weather sensor data and one for
 
 The pipeline was executed in two Spark configurations: single-node Spark execution and distributed Spark execution with one Spark master and four Spark workers.
 
+
+### Featured Data Engineering Project
+
+**Kafka-Spark Environmental Sensor ETL Pipeline**  
+Real-time streaming ETL pipeline using Kafka, PySpark, Docker, and Spark distributed execution. Includes two-source Kafka ingestion, JSON parsing, filtering, UDF-style transformations, stream joining, correlation calculation, and single-node vs four-worker distributed benchmarking.
+
+Repository: https://github.com/YashThakre67/kafka-spark-environmental-sensor-etl
+
 ![Single-node vs Distributed Spark Throughput](results/single_vs_distributed_throughput.png)
 
 The throughput comparison shows that the distributed Spark configuration achieves higher throughput than the single-node baseline because the workload is repartitioned and processed across multiple Spark workers.
