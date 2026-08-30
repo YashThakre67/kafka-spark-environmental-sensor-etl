@@ -30,32 +30,4 @@ Both streams are processed by Spark and aligned for correlation analysis between
 ---
 
 ## Architecture
-
-```text
-Weather Data Producer
-        |
-        v
-Kafka Topic: weather-sensors
-        |
-        v
-Spark Streaming ETL Job
-        |
-        |---- Parse JSON
-        |---- Map transformations
-        |---- Filter invalid records
-        |---- Apply UDF logic
-        |---- Window-based processing
-        |---- Join weather and particulate matter streams
-        |---- Calculate correlation
-        |
-        v
-Output Sink
-
-
-Particulate Matter Producer
-        |
-        v
-Kafka Topic: particulate-matter
-        |
-        v
-Spark Streaming ETL Job
+![Kafka-Spark Environmental Sensor ETL Architecture](docs/images/pipeline_architecture.png)
