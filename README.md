@@ -31,3 +31,5 @@ Both streams are processed by Spark and aligned for correlation analysis between
 
 ## Architecture
 ![Kafka-Spark Environmental Sensor ETL Architecture](docs/images/pipeline_architecture.png)
+
+The pipeline contains two Kafka sources: one for weather sensor data and one for particulate matter data. Spark consumes both streams, parses JSON records, filters invalid data, applies window-based aggregation, joins and aligns both streams, calculates correlation, serializes the result as JSON, and writes the final output to a file sink.
