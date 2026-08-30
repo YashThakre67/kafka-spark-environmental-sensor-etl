@@ -1,1 +1,10 @@
-{"sensor_id": "weather_001", "timestamp": "2026-01-01T00:00:00Z", "temperature": 22.4, "humidity": 61.2}
+{"sensor_id": "weather_001", "timestamp": "2026-01-01T00:00:00Z", "temperature": 21.4, "humidity": 62.1}
+{"sensor_id": "weather_001", "timestamp": "2026-01-01T00:00:05Z", "temperature": 21.7, "humidity": 61.8}
+{"sensor_id": "weather_001", "timestamp": "2026-01-01T00:00:10Z", "temperature": 22.1, "humidity": 60.9}
+{"sensor_id": "weather_001", "timestamp": "2026-01-01T00:00:15Z", "temperature": 22.5, "humidity": 60.2}
+{"sensor_id": "weather_001", "timestamp": "2026-01-01T00:00:20Z", "temperature": 22.9, "humidity": 59.8}
+{"sensor_id": "weather_001", "timestamp": "2026-01-01T00:00:25Z", "temperature": 23.2, "humidity": 59.1}
+{"sensor_id": "weather_001", "timestamp": "2026-01-01T00:00:30Z", "temperature": 23.6, "humidity": 58.7}
+{"sensor_id": "weather_001", "timestamp": "2026-01-01T00:00:35Z", "temperature": 24.0, "humidity": 58.2}
+{"sensor_id": "weather_001", "timestamp": "2026-01-01T00:00:40Z", "temperature": 24.3, "humidity": 57.9}
+{"sensor_id": "weather_001", "timestamp": "2026-01-01T00:00:45Z", "temperature": 24.7, "humidity": 57.4}
